@@ -10,6 +10,7 @@ I used [drduh/YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) as a refere
 
 If the slot/feature is not listed, it is not in use.
 
+- WebAuthn
 - OpenPGP
    - Signature key
    - Encryption key
