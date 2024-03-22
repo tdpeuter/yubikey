@@ -3,11 +3,11 @@
     "drduhConfig": {
       "flake": false,
       "locked": {
-        "lastModified": 1697417581,
-        "narHash": "sha256-R45L/Xv3z0lJhGt781wDbjaq1qc+sGTmsUt+XHwgf4A=",
+        "lastModified": 1710730803,
+        "narHash": "sha256-mZwEZxZJ3vLdgvKyFqGSkwg0JRgH1sshe5EvWXoU6JA=",
         "owner": "drduh",
         "repo": "config",
-        "rev": "8c21617100795fea2313656abdf25f93b98fdc30",
+        "rev": "6fc554136c5e179cacc9ba88a18ad61a9ea37979",
         "type": "github"
       },
       "original": {
@@ -18,11 +18,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1706826059,
-        "narHash": "sha256-N69Oab+cbt3flLvYv8fYnEHlBsWwdKciNZHUbynVEOA=",
+        "lastModified": 1710951922,
+        "narHash": "sha256-FOOBJ3DQenLpTNdxMHR2CpGZmYuctb92gF0lpiirZ30=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "25e3d4c0d3591c99929b1ec07883177f6ea70c9d",
+        "rev": "f091af045dff8347d66d186a62d42aceff159456",
         "type": "github"
       },
       "original": {

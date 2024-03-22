@@ -51,7 +51,7 @@
               };
             in {
               isoImage = {
-                isoName = "yubikeyLive.iso";
+                isoName = "yubikey-nixos-xfce-23.11.iso";
                 # As of writing, zstd-based iso is 1542M, takes ~2mins to
                 # compress. If you prefer a smaller image and are happy to
                 # wait, delete the line below, it will default to a
