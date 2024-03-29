@@ -295,6 +295,39 @@ Now, if you run `gpg -K`, you should see your keys with the `>` tag, indicating 
 
 If you are sure you have saved all your passphrases, you can `reboot` the system to clear your traces.
 
+## Going back
+
+Import the private keys from your encrypted USB stick again.
+
+```
+gpg --import "${GNUPGHOME}/${KEYID}-Certify.key"
+```
+
+Add the extra identity.
+
+```
+gpg --edit-key ${KEYID}
+
+gpg> adduid
+
+# Follow the steps
+# ...
+
+gpg> list
+
+# Check the number of the id you want to make primary.
+
+gpg> <number>
+
+# A star should appear next to the primary id.
+
+gpg> primary
+
+gpg> save
+```
+
+Now export the public key again. You will have to send it to your contacts and public key server(s) afterwards.
+
 ## Notes and TODOs
 
 - [ ] What should be the encryption method for our keys (currently rsa4096)?
