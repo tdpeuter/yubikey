@@ -330,6 +330,17 @@ gpg> save
 
 Now export the public key again. You will have to send it to your contacts and public key server(s) afterwards.
 
+## Questions and Answers
+
+**What are shadowed keys?**
+
+Sometimes, or maybe always, there is a "shadowed" copy of your key in `~/.gnupg/private-keys-v1.d/`. These are not your actual private keys. They only store some information about the smart card, such as its serial number, and the public key. This is used to request the actual private key when needed.
+
+Sources:
+
+- https://dev.gnupg.org/T2291
+- https://www.gnupg.org/blog/20240125-smartcard-backup-key.html
+
 ## Notes and TODOs
 
 - [ ] What should be the encryption method for our keys (currently rsa4096)?
