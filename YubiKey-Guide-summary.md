@@ -156,6 +156,8 @@ gpg --output ${GNUPGHOME}/${KEYID}.asc \
 
 Copy this over to your encrypted USB drive.
 
+Alternatively, if you don't have a spare USB drive, see [Moving GPG Keys Privately - Josh Habdas](https://web.archive.org/web/20210803213236/https://habd.as/post/moving-gpg-keys-privately/).
+
 ```sh
 mkdir -p /mnt/usb0
 cryptsetup luksOpen /dev/sdx1 encrypted_usb
