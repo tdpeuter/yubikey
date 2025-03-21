@@ -330,6 +330,21 @@ gpg> save
 
 Now export the public key again. You will have to send it to your contacts and public key server(s) afterwards.
 
+## Maintenance
+
+Once your subkeys expire, you can either renew or replace them. When you renew your keys, the expiration date is updated. Replacing the key is what you think it is.
+
+### My opinion
+
+I personally prefer to renew my keys every year for four years, and replacing them after five years of use. In my opinion that is a proper balance between security and usability.
+
+1. My keys are stored on a YubiKey. It is unlikely that my keys are exploited.
+2. This method limits the number of "old" expired keys I need to manage (because the key might still be used by others) to a fair amount.
+
+If I were to notice anything malicious regarding my keys, I would replace them sooner.
+
+Please see the full guide for instructions. In my experience you don't need to copy the renewed keys to the YubiKey again.
+
 ## Questions and Answers
 
 **What are shadowed keys?**
